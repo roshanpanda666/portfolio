@@ -34,16 +34,17 @@ body{
     align-items: center;
 }
 #myimg{
+    justify-content: end;
     height: 100%;
     width: 150%;
     
 }
 .tracking{
     border: 3px solid orange;
-    width: 100px;
-    height: 100px;
+    width: 8%;
+    height: 16%;
     position: absolute;
-    margin-left: 100px;
+    right: 50%;
     margin-top: 10px;
     animation: animate 1s linear forwards;
     
