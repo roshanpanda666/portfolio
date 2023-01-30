@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+}
+.mepage{
+    height: 50vh;
+    display: flex;
+    background-color: rgb(59, 61, 81);
+}
+
+.leftside{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.rightside{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+}
+.img{
+
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.content{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myimg{
+    height: 100%;
+    width: 150%;
+    
+}
+.tracking{
+    border: 3px solid orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+    animation: animate 1s linear forwards;
+    
+}
+.whiteline{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    animation: tracker 1s ease-in both;
+    animation-delay: 1s;
+}
+
+@keyframes animate {
+    0%{
+
+        height: 0px
+    }
+    30%{
+        
+        height: 0px
+    }
+
+    60%{
+        height: 30px
+    }
+}
+
+@keyframes tracker {
+    0%
+    {
+    height: 0px;
+    }
+
+    50%{
+        height:100px;
+    }
+
+    100%{
+        height: 0px;
+    }
+
+
+}
+
+.leftsideri{
+    display: flex;
+    flex-direction: column;
+    color: rgb(171, 171, 171);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 50;
+}
+
+
+.notification{
+    font-size: 0.7rem;
+    animation: complete 0.2s ease-in both;
+    animation-delay: 2s;
+}
+@keyframes loading {
+0%
+{
+    transform: translateX(-100%);
+    opacity: 0%;
+}
+
+20%{
+    opacity: 0%;
+}
+
+60%{
+
+   transform: translateX(0%);
+   opacity: 100%;
+
+}
+
+
+}
+@keyframes complete {
+    from
+    {
+        /* transform: translateX(900px); */
+        opacity: 0%;
+    }
+
+    to{
+        /* transform: translateX(0px); */
+    opacity: 100%;
+    }
+
+
+}
+
+.name{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 4rem;
+    color: white;
+    animation:complete 1s ease-in both ;
+    animation-delay: 0;
+}
+
+.orangeline{
+    height: 5px;
+    width: 70px;
+    background-color: orange;
+    border-radius: 30px;
+    margin-left: -220px;
+    animation:loading 2s ease-in both ;
+    animation-delay: 0;
+
+}
+
+.links{
+    height: 20px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: -120px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    animation: complete 2s ease-in both;
+
+}
+.icons:hover{
+    color: orange;
+}
+
+.introall{
+    font-size: 1rem;
+    color: white;
+    margin-left: 30px;
+
+}
+.intro{
+    margin-top: 5px;
+    animation: complete 1s ease-in both;
+    animation-delay: 4s;
+}
+
+
+.detail{
+    font-size: 1.6rem;
+    color: orange;
+    animation: complete 1s ease-in both;
+    animation-delay: 3s;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.aftermecontent{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(40, 42, 56);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.leftafter{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(59, 61, 81);
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+
+}
+
+.middleafter{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(59, 61, 81);
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+}
+.rightafter{
+    height: 70%;
+    width: 20%;
+    background-color: rgb(59, 61, 81);
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+
+}
