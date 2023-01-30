@@ -205,30 +205,30 @@ body{
     justify-content:space-evenly;
     
 }
-.leftafter{
+.after{
     height: 70%;
-    width: 20%;
+    width: 30%;
     background-color: rgb(59, 61, 81);
+    transition: 0.30s;
+    animation: complete 1s ease-in both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+
+}
+.after:hover{
     -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
     box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+
 
 }
 
-.middleafter{
-    height: 70%;
-    width: 20%;
-    background-color: rgb(59, 61, 81);
-    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-}
-.rightafter{
-    height: 70%;
-    width: 20%;
-    background-color: rgb(59, 61, 81);
-    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-
+.roshancontent{
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
 }
