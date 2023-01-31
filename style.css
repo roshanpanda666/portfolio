@@ -298,7 +298,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.myskills{
+    font-size: 1.6rem;
+    color: orange;
+    animation: complete 1s ease-in both;
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 250px;
+    width: 100px;
+}
 
 @media only screen and (max-width: 600px) {
     body {
