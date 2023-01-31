@@ -307,6 +307,148 @@ body{
     width: 100px;
 }
 
+.projects{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.projectstxt{
+    display: flex;
+
+}
+.childtxt{
+    font-family: 'Rajdhani', sans-serif; ;
+    color: orange;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.firstprojects{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.projectcontent{
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+    
+}
+
+#cardp{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition-duration: 0.60s;
+}
+#cardp:hover{
+    width: 110%;
+    height: 110%;
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+}
+
+.projectcon2{
+    height: 300px;
+    width: 700px;
+}
+.projectcon2txt{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+.secondimg{
+    height: 300px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+#marvelpng{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition-duration: 0.60s;
+}
+#marvelpng:hover{
+    width: 110%;
+    height: 110%;
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+}
+.secondproject{
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.secondtxt{
+    width: 500px;
+    height: 300px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.whatsnew{
+    background-color: rgb(40, 42, 56);
+    width: 100%;
+    
+}
+#lasttxt{
+    margin-left: 20px;
+}
+
+.heavyborder{
+    height: 400px;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+
+.links2{
+    height: 20px;
+    width: 150px;
+    margin-top: 40px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    animation: complete 2s ease-in both;
+}
+
+#ndmyimage{
+    height: 100%;
+    width: 100%;
+    margin-left: -100px;
+    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+}
+
+.lastquot{
+    height: 80px;
+    margin-left: -300px;
+    color: rgb(181, 181, 181);
+    animation: complete 1s ease-in both;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.lastcontent{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
@@ -382,12 +524,46 @@ body{
     .skills{
         margin-top: 70%;
         height: 100%;
-        
-    
-        
+         
     }
 
     .skillbox{
         margin-left: 10%;
+    }
+    .secondtxt{
+        font-size: 1rem;
+        height: 70%;
+    }
+
+    .projectcon2txt{
+        font-size: 1rem;
+        margin-top: 100px;
+        height: 20%;
+    }
+
+    .secondimg{
+        margin-top: 70px;
+    }
+
+    #ndmyimage{
+        height: 180px;
+        width: 180px;
+        margin-left: 20px;
+        margin-top: -70px;
+    }
+    #lasttxt{
+        margin-left:0px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    #whatsnewtxt{
+       margin-bottom: -50px;
+       margin-left: -20px;
+    }
+
+    .lastquot{
+        font-size: 10px;
+        margin-left: 10px;
     }
   }
