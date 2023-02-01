@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgb(59, 61, 81);
 
 }
 .mepage{
@@ -451,7 +452,7 @@ body{
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: rgb(59, 61, 81);
     }
     .mepage{
         display: flex;
