@@ -5,7 +5,6 @@ body{
 }
 .mepage{
     height: 50%;
-    width: 100%;
     display: flex;
     background-color: rgb(59, 61, 81);
 }
@@ -159,7 +158,7 @@ body{
     animation-delay: 0;
 }
 .content{
-    margin-left: 30%;
+    margin-left: 0%;
 }
 .orangeline{
     height: 5px;
@@ -258,7 +257,9 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    padding-left: 8.3%;
+    padding-right: 8.3%;
 }
 
 .skillbox{
@@ -344,13 +345,7 @@ body{
     border-radius: 30px;
     transition-duration: 0.60s;
 }
-#cardp:hover{
-    width: 110%;
-    height: 110%;
-    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-}
+
 
 .projectcon2{
     height: 300px;
@@ -375,13 +370,7 @@ body{
     border-radius: 30px;
     transition-duration: 0.60s;
 }
-#marvelpng:hover{
-    width: 110%;
-    height: 110%;
-    -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
-}
+
 .secondproject{
     display: flex;
     padding: 80px;
@@ -429,7 +418,7 @@ body{
 #ndmyimage{
     height: 100%;
     width: 100%;
-    margin-left: -100px;
+    margin-left: -10px;
     -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
     box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
@@ -437,11 +426,11 @@ body{
 
 .lastquot{
     height: 80px;
-    margin-left: -300px;
+    margin-left:10px;
     color: rgb(181, 181, 181);
     animation: complete 1s ease-in both;
     font-family: 'Rajdhani', sans-serif;
-    font-size: 15px;
+    font-size: 7px;
     margin-top: 30px;
 }
 .lastcontent{
@@ -451,6 +440,8 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    
+
     body {
         background-color: rgb(59, 61, 81);
     }
@@ -566,5 +557,11 @@ body{
     .lastquot{
         font-size: 10px;
         margin-left: 10px;
+    }
+    #cardp{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        transition-duration: 0.60s;
     }
   }
