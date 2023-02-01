@@ -494,6 +494,8 @@ body{
     .aftermecontent{
         width: 100%;
         height: 300px;
+        justify-content: space-around;
+       
         
     }
     .after{
@@ -516,6 +518,7 @@ body{
     .skills{
         margin-top: 70%;
         height: 100%;
+         margin-left: -10%;
          
     }
 
@@ -564,4 +567,54 @@ body{
         border-radius: 30px;
         transition-duration: 0.60s;
     }
+    .after{
+        width: 180px;
+        height: 150px;
+        font-size: 9px;
+        -webkit-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+        box-shadow: -13px 26px 22px 0px rgba(0,0,0,0.75);
+        
+
+    }
+    .roshancontent{
+        font-size: 5px;
+       
+    }
+    .whatsnew{
+        margin-left: 10%;
+        
+    }
+
+    #whatsnewtxt{
+        font-size: 1rem;
+    }
+    #lasttxt{
+        font-size: 0.4rem;
+    }
+    .links2{
+        justify-content: space-around;
+    }
+
+    #ndmyimage{
+        height: 40%;
+        width: 80%;
+    }
+
+    .lastquot{
+        font-size:0.4rem ;
+
+    }
+
+    .myskills{
+        width: 150px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .after{
+        font-size: 0.3rem;
+    }
+
+
   }
